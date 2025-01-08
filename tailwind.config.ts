@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        appOrange:'#FC8A06',
+        appWhite:'#FAFAFA'
       },
     },
   },
