@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const NavBar = () => {
     const path = usePathname()
     return (
-      <nav className="bg-white fixed top-0 w-[100%]">
+      <nav className="bg-white w-[100%] pb-4">
         <section className="w-[90%] ml-[6rem] pl-[3rem]  bg-appWhite border-x-2 border-b-[1px] border-gray-100 rounded-b-2xl flex justify-between ">
           <div className="flex py-6 items-center r ">
             <Image
