@@ -23,3 +23,27 @@ body {
   height: 100dvh;
   width: 100dvw;
 }
+.backgroundImage1 {
+  background-image: url('/friends-laughing-using-mobiles 2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.backgroundImage1 {
+  background-image: url('/Group\ 10\ \(1\).png');
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  background-position: contain;
+  background-repeat: no-repeat;
+}
+.backgroundImage2 {
+  background-image: url('/Group\ 16\ \(1\).png');
+  background-size: contain;
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* top: 2rem; */
+}
+
