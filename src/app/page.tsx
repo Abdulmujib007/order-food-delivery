@@ -1,3 +1,4 @@
+import FoodList from "@/components/atom/FoodList";
 import OrderDelivery from "@/components/atom/OrderDelivery";
 import Image from "next/image";
 
@@ -71,6 +72,104 @@ const Home = () => {
             text1="Your rider's nearby"
             text2="They're almost there-get ready!"
           />
+        </div>
+      </section>
+      <section className="mt-12 px-28">
+        <div className="flex justify-between items-center mb-12 ">
+          <p className="font-bold text-3xl">
+            Up to -40% 🎊 Order.uk exclusive deals
+          </p>
+          <div className="flex gap-28 items-center">
+            <span>Vegan</span>
+            <span>Sushi</span>
+            <p className="py-4 px-7 border-[1px] border-appOrange text-appOrange rounded-full ">
+              Pizza & Fast food
+            </p>
+            <span>others</span>
+          </div>
+        </div>
+        <div className="flex gap-5">
+          <Image alt="image10" width={385} height={325} src="/Group 10.png" />
+          <Image alt="image11" width={385} height={325} src="/Group 11.png" />
+          <Image alt="image12" width={385} height={325} src="/Group 12.png" />
+        </div>
+        <div className="mt-14 mb-14">
+          <p className="font-bold text-3xl  mb-12">
+            Order.uk Popular Categories 🤩
+          </p>
+          <section className="flex gap-5">
+            <FoodList
+              imageSrc="/Rectangle 13.png"
+              text1="Burgers & Fast food"
+              text2="21 Restaurants"
+            />
+            <FoodList
+              imageSrc="/Rectangle 15.png"
+              text1="Salads"
+              text2="32 Restaurants"
+            />
+            <FoodList
+              imageSrc="/Rectangle 17.png"
+              text1="Pasta & Casuals"
+              text2="4 Restaurants"
+            />
+            <FoodList
+              imageSrc="/Rectangle 19.png"
+              text1="Pizza"
+              text2="32 Restaurants"
+            />
+            <FoodList
+              imageSrc="/Rectangle 21.png"
+              text1="Breakfast"
+              text2="4 Restaurants"
+            />
+            <FoodList
+              imageSrc="/Rectangle 23.png"
+              text1="Soups"
+              text2="32 Restaurants"
+            />
+          </section>
+        </div>
+        <div className="mb-11">
+          <p className="font-bold text-3xl mb-12">Popular Restaurants</p>
+          <section className="flex gap-5">
+            <Image
+              alt="food-company"
+              src="/Group 16.png"
+              width={185}
+              height={266}
+            />
+            <Image
+              alt="food-company"
+              src="/Group 17.png"
+              width={185}
+              height={266}
+            />
+            <Image
+              alt="food-company"
+              src="/Group 18.png"
+              width={185}
+              height={266}
+            />
+            <Image
+              alt="food-company"
+              src="/Group 19.png"
+              width={185}
+              height={266}
+            />
+            <Image
+              alt="food-company"
+              src="/Group 20.png"
+              width={185}
+              height={266}
+            />
+            <Image
+              alt="food-company"
+              src="/Group 21.png"
+              width={185}
+              height={266}
+            />
+          </section>
         </div>
       </section>
     </div>
